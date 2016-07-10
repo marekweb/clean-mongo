@@ -1,0 +1,24 @@
+{
+  "name": "clean-mongo",
+  "version": "1.0.2",
+  "description": "Connects to a MongoDB database and deletes all data. Gives you a fresh, clean database for testing. Do not use on a production database, it will delete all collections.",
+  "main": "clean-mongo.js",
+  "scripts": {
+    "lint": "xo --space",
+    "test": "ava"
+  },
+  "author": "marekweb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marekweb/clean-mongo"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "mongodb": "^2.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "xo": "^0.16.0"
+  }
+}
